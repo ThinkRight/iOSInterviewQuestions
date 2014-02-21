@@ -1,0 +1,600 @@
+<root>
+	<MenuItem id="Mobility Interview Questions" guid="5be2d362-f49e-47b5-bbfa-5c3a0828f14f">
+		<MenuItem id="iOS" guid="c2662f0e-182b-42c9-9e62-27a6e4eb2505">
+			<MenuItem id="... More Questions" guid="e34f5432-7f71-49f5-987f-667722865109">
+				<MenuItem id="How to declare methods in Objective-C and how to call them?" guid="db71daf3-1f5a-432d-82de-2833dcd99456">
+					<![CDATA[
+- (int)changeColorToRed:(float)red green:(float)green blue:(float)blue;
+
+[myColor changeColorToRed:5.0 green:2.0 blue:6.0];
+					]]>
+					<MenuItem id="- (int)changeColorToRed:(float)red green:(float)green blue:(float)blue;" guid="81527e6e-3dbc-4878-b09f-df5484e631c2">
+					</MenuItem>
+					<MenuItem id="[myColor changeColorToRed:5.0 green:2.0 blue:6.0];" guid="f64c3004-ede9-4d6c-afd6-9d5455e9c327">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="How to use reusable cell in UITableview?" guid="69fc7fbe-5bdf-4b4e-9bfd-1abd27bd1c19">
+					<MenuItem id="By using dequeReusableCellWithIdentifier" guid="6f57107f-9c05-46bc-b5db-1c167a66a293">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="What happens when we invoke a method on a nil pointer?" guid="2c70b65d-7ae4-4bf6-bcfe-2d3e540a0201">
+					<MenuItem id="It returns 0." guid="3ecf5e48-f2c3-48b4-accc-dde95bf280ec">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Difference between nil and Nil" guid="4ddfcc16-f43a-4291-b8e2-70a2888901a4">
+					<MenuItem id="nil is meant for object pointers" guid="59cd33de-6463-49da-8be8-77ee67d9078a">
+					</MenuItem>
+					<MenuItem id="Nil is meant for class pointers" guid="998a51b8-775a-4611-a932-5e701aa174d9">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="How to find the memory leaks in MRC?" guid="959a55ec-c1f1-4420-8854-55c9432d32b4">
+					<MenuItem id="By using" guid="42aa3e64-d0ef-4501-a311-76753f41365c">
+						<MenuItem id="1.Static analyzer." guid="337ca4a9-cb74-495c-90b6-dd10f9b87d8b">
+						</MenuItem>
+						<MenuItem id="2.Instrument." guid="60bde670-86e3-4475-b146-f40c525fb021">
+						</MenuItem>
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="What is the use of UIApplication class?" guid="3d01f6b2-451c-4110-8e9e-6c5a01012919">
+					<MenuItem id="The UIApplication class implements the required behavior of an application." guid="c0117f56-6b7e-44b1-a1dc-353fe2c2519d">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="What is the compiler used by Apple?" guid="fce0e8ca-f096-46a7-8f5c-700cf99c4634">
+					<MenuItem id="GNU Compiler Collection (GCC)" guid="44d6b89d-32e0-47b2-aec1-30d120d4c815">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Explain the ViewController lifecycle." guid="ce75f348-96dd-4ceb-a724-9bf356f88cbd">
+					<MenuItem id="loadView" guid="247eb5f1-997f-419a-a6ca-fe64fb3a9d01">
+					</MenuItem>
+					<MenuItem id="viewDidLoad" guid="a2b89c1d-c959-4a62-b91b-2558477014e3">
+					</MenuItem>
+					<MenuItem id="viewWillAppear" guid="3dad4c94-5d74-4b03-b8db-b312a0f7c3c1">
+					</MenuItem>
+					<MenuItem id="viewDidAppear" guid="3d79fa8e-98da-4194-b0f7-64d46208f787">
+					</MenuItem>
+					<MenuItem id="viewDisappear" guid="afd0794e-e2ca-4332-8749-c4014c0549f7">
+					</MenuItem>
+					<MenuItem id="viewDidUnload" guid="c9292c9d-cbe1-4a1c-9a63-2a7ff15ddd45">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Steps for using CoreData" guid="94000bb8-ba12-46b6-ae26-5cb39134ea0c">
+					<MenuItem id="NSFetchedResultsController" guid="72080ad0-cbcc-4980-87f6-31f0349b501d">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Explain the Application Lifecycle." guid="b3617f2e-3660-484b-a01f-7fc944dd5200">
+					<MenuItem id="ApplicationDidFinishLaunchingWithOption" guid="36416777-006e-4b48-a87c-62b20fecad94">
+					</MenuItem>
+					<MenuItem id="ApplicationWillResignActive" guid="8e2fa904-dbb6-4e31-880a-1e36edbb92ad">
+					</MenuItem>
+					<MenuItem id="ApplicationDidBecomeActive" guid="00fa5893-25c9-449b-9b8b-c30b7e371db3">
+					</MenuItem>
+					<MenuItem id="ApplicationWillTerminate" guid="cb1f3b31-c5b1-4d8a-b8ee-e30362d08483">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="What is the difference between release and autorelease?" guid="d57ba208-caca-4e37-bb4b-bf4656b3adb8">
+					<MenuItem id="release - destroys the object from memory" guid="92a2253d-1b06-41db-9fad-0f04ff1f6789">
+					</MenuItem>
+					<MenuItem id="autorelease - destroys the object from memory in future when it's not in use" guid="3606f13d-02df-4620-b53e-7ec7ca7a1258">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="How to start a selector on a background thread?" guid="a74fae62-18e8-4e01-a4da-4f7c09161768">
+					<MenuItem id="[NSObject(void)performSelectorInBackground:(SEL)aSelector withObject:(id)arg]" guid="d01d71ba-23c8-46ad-8405-1bcb892c2e7e">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="What happens if a non existing method is invoked in objective-c?" guid="d62662e8-a9af-4266-98d4-fe2bb832adfb">
+					<MenuItem id="App will crash with exception unrecognized selector sent to instance." guid="212a0fef-56d3-46ef-8aea-87daedd03675">
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Keywords" guid="6a2454d7-cb5b-48e1-9653-2fbfc060170a">
+				<MenuItem id="atomic" guid="765dd2b6-2598-4269-ac23-68c687cf5766">
+					<MenuItem id="means it cannot be broken down" guid="44ed9f01-3abd-4b02-b912-eae744d22b26">
+					</MenuItem>
+					<MenuItem id="This doesn't mean the whole object is thread-safe, but the property reads/writes are." guid="e9322518-18f4-4d38-aa85-659823ee20be">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="nonatomic" guid="d2c790d8-2477-4393-9206-2ac75fa522da">
+					<MenuItem id="You can get partially-written values or over-released/retained objects, which can easily lead to crashes." guid="91cdc8b4-e1e8-44c9-927b-9df56f8d1ac5">
+					</MenuItem>
+					<MenuItem id="Potentially a lot faster than an atomic accessor" guid="ea64d64f-8356-4ffc-b97e-cc8399c1a97c">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="readonly" guid="9999ec6e-2218-403f-8525-1fa5300f77b8">
+					<MenuItem id="Declare read only property / declares only getter method" guid="d609dc00-eaa9-4985-b940-4c94b476cd82">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="copy" guid="ca230b2e-fa33-4854-88fd-c089ad436c3d">
+					<MenuItem id="Specifies that a copy of the object should be used for assignment." guid="40fd4eef-3c42-44f5-80ba-d95bdacf0bc5">
+					</MenuItem>
+					<MenuItem id="The previous value is sent a release message." guid="9594c9b1-b3c6-411a-b7a3-fe03f1f10637">
+					</MenuItem>
+					<MenuItem id="Increases the retain count by 1" guid="3c00faab-8243-40ba-8755-31b523ac90b8">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="retain" guid="c0def433-0834-4c91-b26a-1c729209b6c4">
+					<MenuItem id="Ensures the generated property setter retains a reference to the value set." guid="38843eb8-34ad-49de-9624-7f57a90ecb57">
+					</MenuItem>
+					<MenuItem id="Ensures previous value is properly released." guid="bfc1ec84-8550-4e56-9b8c-3b53d5c77efc">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="strong" guid="8884e3d5-443c-4bb7-99db-f07a727644e9">
+					<MenuItem id="use instead of retain in ARC" guid="d1dffa5a-1212-49ff-a005-556e67d283e2">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="weak" guid="71bcb866-b535-43ef-b1a7-591bb1bfd019">
+					<MenuItem id="weak assigns nil to pointer" guid="efb37404-42ef-451c-a6db-dd96ea2c0266">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="assign" guid="dc8cbf39-f1d0-4a7f-ae13-312dd5de5d8e">
+					<MenuItem id="Specifies that the setter uses simple assignment." guid="bf1f5715-430b-4d16-83a1-14b0b9895b55">
+					</MenuItem>
+					<MenuItem id="Used on attribute of scalar type like float,int." guid="5dc7a39d-56ec-4540-ab4f-85abe7c564a8">
+					</MenuItem>
+					<MenuItem id="assign doesn't assign nil to pointer" guid="6e4bac01-2948-48b3-8507-e5847d12c8d7">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@property" guid="d40f3a42-94c7-452c-8718-352c81e72129">
+					<MenuItem id="used to define a property" guid="562239e5-6579-423f-ace9-1699272db4e6">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@synthesize" guid="c6f93ef1-96c5-40d0-bc49-e2d33469d70a">
+					<MenuItem id="creates getter and setter along with a backing field (eg: __facts)" guid="4c544f17-6e73-4760-880e-ee0ded9bbe5e">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@dynamic" guid="21adb462-91eb-4bdc-8d9d-ba18557a2da2">
+					<MenuItem id="allows dynamic creation of getter and setter" guid="a9177d9f-98d9-45d2-86ad-477399d782bf">
+					</MenuItem>
+					<MenuItem id="Instructs the compiler not to generate a warning if it cannot find implementations of accessor methods associated with the properties." guid="bdb74e9c-f5aa-49cf-b696-b3753453a626">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@public" guid="78dab8b9-b23a-4ee1-8b56-06a31059b87d">
+					<MenuItem id="section under which public variables are declared" guid="0ec687a6-88b6-4ce8-b714-872390569b56">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@protected" guid="0aa10219-8762-44c1-9cd4-5be9d1ca0a27">
+					<MenuItem id="section under which protected variables are declared" guid="11fc64c0-3eb7-46ef-8741-b4fe2527098e">
+					</MenuItem>
+					<MenuItem id="This is the default access" guid="4df180e7-2fa9-4d8c-a1f4-789708fc75e2">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@private" guid="ec5622df-269f-45b6-a50c-6d92f804558b">
+					<MenuItem id="section under which private variables are declared" guid="15616cbb-9f3f-4f6d-ba83-545ea4a6a9af">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@class" guid="686bd281-4f59-4b05-9518-8ff3dc462ac6">
+					<MenuItem id="if you only want to use the class name and not use it to invoke methods and; properties in it" guid="4d7bc4c2-63b5-4890-b42c-cd1dfc7773b3">
+					</MenuItem>
+					<MenuItem id="Compiles quicker as compared to #import" guid="13ff9f24-7a6e-4c0c-98d8-1f8dd0330445">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="@synchronized" guid="5f6511ae-e7b2-45c2-82ad-b2e42ad3ad6c">
+					<MenuItem id="The @synchronized() directive locks a section of code for use by a single thread. Other threads are blocked until the thread exits the protected code." guid="5b0e07d0-d18c-428e-b581-0554e70f6706">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="#include" guid="01232590-4d8f-4859-b081-d00833ab57eb">
+					<MenuItem id="for importing header files" guid="50d77805-6545-4f65-800e-f5d1fee032ea">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="#import" guid="17afafa2-2ce0-48b1-a0b2-6338f70f5a54">
+					<MenuItem id="same as include but checks for duplicate imports" guid="b3c401c2-d0a2-4b8d-b6a0-f9ea7bbf78c3">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="IBOutlet" guid="880a4f87-0af1-4d0c-a209-279bdebd2b7c">
+				</MenuItem>
+				<MenuItem id="IBAction" guid="0e7c1bb0-f8d5-4a44-b9d6-66798dedaa38">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="UITableView" guid="67e06767-192e-4356-8e37-1c1d7b519b29">
+				<MenuItem id="DataSource" guid="6184247a-b838-403c-9816-2ae976126ce3">
+					<MenuItem id="Configuring a Table View" guid="3984f8ca-f899-42c8-a625-b199025ea440">
+						<MenuItem id="– tableView:cellForRowAtIndexPath:" guid="b500544c-0df4-4c5a-b430-fd721f022341">
+						</MenuItem>
+						<MenuItem id="– tableView:numberOfRowsInSection:" guid="01c6a88e-c6ae-44b9-948f-df37ec34d250">
+						</MenuItem>
+						<![CDATA[
+– tableView:cellForRowAtIndexPath:  required method
+– numberOfSectionsInTableView:
+– tableView:numberOfRowsInSection:  required method
+– sectionIndexTitlesForTableView:
+– tableView:sectionForSectionIndexTitle:atIndex:
+– tableView:titleForHeaderInSection:
+– tableView:titleForFooterInSection:	]]>
+					</MenuItem>
+					<MenuItem id="Inserting or Deleting Table Rows" guid="b64251c4-d0d0-44ef-ae5b-09ebc028c84b">
+						<![CDATA[
+– tableView:commitEditingStyle:forRowAtIndexPath:
+– tableView:canEditRowAtIndexPath:		]]>
+					</MenuItem>
+					<MenuItem id="Reordering Table Rows" guid="1eb5b6d5-f54f-46a0-b3c1-a8ad96622b12">
+						<![CDATA[
+– tableView:canMoveRowAtIndexPath:
+– tableView:moveRowAtIndexPath:toIndexPath:
+						]]>
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Delegate" guid="155203ac-e8ad-4534-9811-e772cbe6cc12">
+					<MenuItem id="Configuring Rows for the Table View" guid="2169dfc3-4701-4831-8ec1-b63cfc61c4a0">
+						<![CDATA[
+– tableView:heightForRowAtIndexPath:
+– tableView:indentationLevelForRowAtIndexPath:
+– tableView:willDisplayCell:forRowAtIndexPath:
+						]]>
+					</MenuItem>
+					<MenuItem id="Managing Accessory Views" guid="1435cfcb-b815-4e27-a9bc-f6fa19e107f2">
+						<![CDATA[
+– tableView:accessoryButtonTappedForRowWithIndexPath:
+						]]>
+					</MenuItem>
+					<MenuItem id="Managing Selections" guid="816e9055-b894-4ab0-bf09-701fe2956fe3">
+						<![CDATA[
+- tableView:willSelectRowAtIndexPath:
+- tableView:didSelectRowAtIndexPath:
+- tableView:willDeselectRowAtIndexPath:
+- tableView:didDeselectRowAtIndexPath:
+						]]>
+					</MenuItem>
+					<MenuItem id="Modifying the Header and Footer of Sections" guid="750720c4-02ca-421e-9701-c6a94636e32c">
+						<![CDATA[
+- tableView:viewForHeaderInSection:
+- tableView:viewForFooterInSection:
+- tableView:heightForHeaderInSection:
+- tableView:heightForFooterInSection:
+						]]>
+					</MenuItem>
+					<MenuItem id="Editing Table Rows" guid="d5eaff49-fee5-4832-b067-25b61b76802a">
+						<![CDATA[
+- tableView:willBeginEditingRowAtIndexPath:
+- tableView:didEndEditingRowAtIndexPath:
+- tableView:editingStyleForRowAtIndexPath:
+- tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:
+- tableView:shouldIndentWhileEditingRowAtIndexPath:
+						]]>
+					</MenuItem>
+					<MenuItem id="Reordering Table Rows" guid="344d7248-d17d-4ba6-9b38-6c3e75d1685d">
+						<![CDATA[
+- tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:
+						]]>
+					</MenuItem>
+					<MenuItem id="Copying and Pasting Row Content" guid="5efb833e-026a-45c7-8070-4a1e4c52b821">
+						<![CDATA[
+- tableView:shouldShowMenuForRowAtIndexPath:
+- tableView:canPerformAction:forRowAtIndexPath:withSender:
+- tableView:performAction:forRowAtIndexPath:withSender:
+						]]>
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="UIPickerView" guid="23a9eca7-dcf4-44d3-97ff-2ae909205718">
+				<MenuItem id="DataSource" guid="5a825dac-114d-45bb-8a66-70b4a8ef9c05">
+					<MenuItem id="Providing Counts for the Picker View" guid="f37b9260-ce62-4dcb-a63e-7154e46115a2">
+						<MenuItem id="- numberOfComponentsInPickerView:" guid="c068d7c9-0684-41db-9933-000c36745313">
+						</MenuItem>
+						<MenuItem id="- pickerView:numberOfRowsInComponent:" guid="d4897279-ac58-433e-9bd5-fecf04bba897">
+						</MenuItem>
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Delegate" guid="0d60ccfa-6f74-40d0-b2a8-5dc8867afc38">
+					<MenuItem id="Setting the Dimensions of the Picker View" guid="5dc312ba-fec6-4777-92a1-e564c16abf7b">
+						<MenuItem id="- pickerView:rowHeightForComponent:" guid="3b4def23-aa83-4d51-b616-1dc7b46354d9">
+						</MenuItem>
+						<MenuItem id="- pickerView:widthForComponent:" guid="5b51df2d-0451-40ba-b837-9a26e47b9941">
+						</MenuItem>
+					</MenuItem>
+					<MenuItem id="Setting the Content of Component Rows" guid="922fce0b-1e0c-4e86-867d-ee0c269ca2ba">
+						<MenuItem id="- pickerView:titleForRow:forComponent" guid="f6fefa2a-bf19-494d-8d65-899b15c040c6">
+						</MenuItem>
+						<MenuItem id="- pickerView:viewForRow:forComponent:reusingView:" guid="556f74b6-9cff-4b3c-a0c2-c746e907ae7a">
+						</MenuItem>
+					</MenuItem>
+					<MenuItem id="Responding to Row Selection" guid="51771298-81b2-48b0-8b8d-b2e6b0f7d921">
+						<MenuItem id="- pickerView:didSelectRow:inComponent:" guid="38cf5de5-ab69-4bd1-bc03-e573a3352e62">
+						</MenuItem>
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="UILabel vs UITextField vs UITextView" guid="b711af16-d7eb-45b6-b0c4-c1a37bb20e89">
+				<MenuItem id="The UILabel class implements a read-only text view." guid="835edcfe-feb4-4b31-bcb5-0de34931ab47">
+				</MenuItem>
+				<MenuItem id="A UITextField object is a control that displays editable text." guid="0ed52a06-ab6d-410f-ba90-ef9ebb6be4ac">
+					<MenuItem id="Sends an action message to a target object when the user presses the return button." guid="1c0715c0-e947-4bc5-8afc-227b917482fb">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="The UITextView class implements the behavior for a scrollable, multiline text region." guid="062e6d75-4b25-4d43-8885-ea76e23506b4">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="New Features in iOS 5.0" guid="f51ea9bc-9d18-406a-a70c-b6a5067a051e">
+			</MenuItem>
+			<MenuItem id="New Features in iOS 6.0" guid="3d61954f-4400-4a3e-a8d1-93cba6b34670">
+				<MenuItem id="Map" guid="756e1895-b9b7-41c2-849d-c7953b9dc3f8">
+					<MenuItem id="MKMapView" guid="53ee09b7-4499-4f5d-8e44-c4b99eae8ba6">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Integration with Facebook" guid="ff1656d1-787d-49a9-875b-66e742d6d287">
+				</MenuItem>
+				<MenuItem id="Shared Photo Streams" guid="b72217fb-4ddf-4a7e-8394-00c52c4bd8da">
+				</MenuItem>
+				<MenuItem id="Passbook" guid="93ab1fc2-e94a-47dc-9389-edc6ffc3ac38">
+				</MenuItem>
+				<MenuItem id="Facetime on mobile network" guid="c79d9294-ccc9-4465-8f1c-bc095b726089">
+				</MenuItem>
+				<MenuItem id="Phoneapp Changed" guid="0cb87674-7238-4030-8c6b-126858d59041">
+					<MenuItem id="Remind Me Later" guid="67fe5806-372f-472c-85b8-3e2b8beb7cd2">
+					</MenuItem>
+					<MenuItem id="Reply with Message" guid="2b4ee5b8-0180-4566-8d1b-1607d26de0b9">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="Mail - Streamlined interface" guid="88d75f26-f5e9-44bf-9deb-6011a7423fb7">
+				</MenuItem>
+				<MenuItem id="Panaroma Shot in Camera" guid="719e8429-509e-4a72-b7e6-fa41772fc587">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="New Features in iOS 7.0" guid="800c9cb0-5566-449c-b2a1-161ed8b377aa">
+			</MenuItem>
+			<MenuItem id="Latest iOS Version - 7.0" guid="62f8fafe-737a-422f-bc77-d90e3781b7a5">
+			</MenuItem>
+			<MenuItem id="Latest XCode Version - 5.0" guid="a5d78541-0179-48cb-aae2-284921499b2f">
+			</MenuItem>
+			<MenuItem id="Latest Mac Version - Mavericks - OS X 10.9" guid="bffcbec8-0d0f-4a1d-bf82-504caa43e0d4">
+			</MenuItem>
+			<MenuItem id="Screen Dimensions" guid="bd6c7071-8a1b-46db-9c39-fc8730a37f8c">
+				<MenuItem id="iPhone" guid="ba7c5ebc-28df-4a07-bbd9-b1936d5c314f">
+					<MenuItem id="480-by-320 resolution" guid="cfed1227-1213-4b0e-b4d1-6d115f77e8fb">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="iPhone 4 - 3.5 inches (diagonal)" guid="63c5e1b1-1f15-4711-978d-e346f494f290">
+					<MenuItem id="960-by-640 resolution at 326 ppi" guid="96b0ebeb-c82b-4d69-a128-6ea23e9def21">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="iPhone 5 - 4 inches (diagonal)" guid="25e116bc-4ef8-4932-a242-f222d301b819">
+					<MenuItem id="1136-by-640 resolution at 326 ppi" guid="4fa2dc25-58d9-438e-90ed-a10f1c081dea">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="iPad mini - 7.9 inches (diagonal)" guid="b8a7ccbf-ed22-4acb-810a-595494523864">
+				</MenuItem>
+				<MenuItem id="iPad Air - 9.7 inches (diagonal)" guid="0e096f03-30b7-4451-acca-90ae684911c8">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="@interface" guid="b0f2905c-3b82-4292-bfbb-fe0a50698d92">
+				<MenuItem id="+ for static methods" guid="60f73027-2659-4d1e-8604-89a80532eb0e">
+				</MenuItem>
+				<MenuItem id="- for instance methods" guid="70b65a1f-52db-445f-ad26-506659f3199d">
+				</MenuItem>
+				<MenuItem id="within {} in @interface defnition for instance variables" guid="0e33da68-ba2f-457b-89fc-cc0923b70f36">
+					<MenuItem id="If declared in header file then it's a public instance variable" guid="ed66bf95-abb8-413a-bac3-272a1347f611">
+					</MenuItem>
+					<MenuItem id="If declared in the @interface of .m file then it's a private instance variable" guid="a27132fb-dd3d-4f1b-a6dc-7fbf82c937bc">
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="@implementation" guid="444c0df7-6778-4d71-a6c5-58852efe0553">
+				<MenuItem id="actual implementation of the methods and synthesis of properties" guid="6cd10aba-f35a-4e5f-999d-8858d742c635">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="methods" guid="1a3512c2-88f7-49ac-8cd9-a481094b7359">
+				<MenuItem id="+ for static methods" guid="773c7c8d-67bb-43d7-ad93-efe9da529b77">
+				</MenuItem>
+				<MenuItem id="- for instance methods" guid="33f5969a-bb7a-4fef-a191-255e7798e400">
+				</MenuItem>
+				<MenuItem id="Have named parameters" guid="96bd328f-c1d7-425f-920d-7893f7387e61">
+					<![CDATA[
+- (int)changeColorToRed:(float)red green:(float)green blue:(float)blue;
+ 
+[myColor changeColorToRed:5.0 green:2.0 blue:6.0];
+					]]>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="object instantiation" guid="f56a371e-01b1-4b2b-aadf-240263e0abea">
+				<MenuItem id="[[MyObject alloc] init];" guid="e6eb980c-bb4e-46df-abf9-1c1f44ee011c">
+				</MenuItem>
+				<MenuItem id="[MyObject new]; instead of alloc-init" guid="2da5ead8-45d6-4dc5-be0b-46fa3a4af355">
+				</MenuItem>
+				<MenuItem id="[[MyObject alloc] initWithString:myString];" guid="9fd6b1dd-b1e0-475a-a990-f60309511214">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="@protocol" guid="e3d6766e-e5e5-4bdc-9c60-87502618624c">
+				<MenuItem id="called interface in other programming languages" guid="61ef3135-4de6-43ff-ad36-7bdbfcd97590">
+					<![CDATA[
+@protocol NSLocking
+- (void)lock;
+- (void)unlock;
+@end
+
+@interface NSLock : NSObject <NSLocking>
+//...
+@end
+					]]>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Delegate" guid="e5797c9e-fccd-444c-95c1-88f32384304d">
+				<MenuItem id="A delegate is an object that will respond to pre-chosen selectors (function calls) at some point in the future., need to implement the protocol method by the delegate object." guid="f0c06d44-c71b-4903-aefa-70e3d85fe4c0">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Protocol vs Delegate" guid="488da1ef-9f64-47f7-b6bb-da67907b4a44">
+				<MenuItem id="Protocol is used the declare a set of methods that a class that 'adopts' (declares that it will use this protocol) will implement." guid="21830ca6-254a-4648-bfec-f48ff52bfe31">
+				</MenuItem>
+				<MenuItem id="Delegates are a use of the language feature of protocols. The delegation design pattern is a way of designing your code to use protocols where necessary." guid="05ef8973-6503-489a-84ff-c24b8a6be308">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Category" guid="712e71b2-d3a6-4330-a3da-7333f08dcfef">
+				<MenuItem id="For extending framework classes by adding new methods to them" guid="2064b053-260e-4491-ba02-6b5b83c26d66">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Extension" guid="215fbb16-d962-40c7-af64-b05db201cf58">
+				<MenuItem id="Need access to source code of classes that need to be extended through extensions" guid="bdca94e0-d663-4c36-bb25-237bd576d84d">
+				</MenuItem>
+				<MenuItem id="The @interface definition needs to be added to the .m file of the class that needs to be extended via extension" guid="85878033-7918-46d4-8d42-9ada03022ba1">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Block" guid="00a9bc08-f3c5-4833-8662-b635d620dc5b">
+				<MenuItem id="Blocks are a language-level feature added to C, Objective-C and C++" guid="e1204b0f-dfde-4ce7-97b5-f4281a32c37e">
+				</MenuItem>
+				<MenuItem id="Blocks allow you to create distinct segments of code that can be passed around to methods or functions as if they were values." guid="11565c83-7bc6-46d3-b8f9-e2df383cef11">
+				</MenuItem>
+				<MenuItem id="Blocks are Objective-C objects" guid="97e7b105-b415-43ab-9b64-84a68f524725">
+				</MenuItem>
+				<MenuItem id="Blocks can be added to collections like NSArray or NSDictionary." guid="0ac867ca-fe15-4e54-8ae3-d7450f420278">
+				</MenuItem>
+				<MenuItem id="They also have the ability to capture values from the enclosing scope, making them similar to closures or lambdas in other programming languages." guid="f21700b3-0660-4e18-9224-ac307fddce31">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="Dynamic Typing" guid="1d039730-e4e4-4113-b61b-f0e6dce51a7f">
+				<MenuItem id="- (void)setMyValue:(id)foo;" guid="c196f8ca-485e-4205-9e69-68c9e6f00b7c">
+					<MenuItem id="foo may be any class" guid="241cf14b-5334-4ace-8b00-5ea9be2373c3">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="- (void)setMyValue:(id[NSCopying])foo;" guid="c66dae9e-d7ba-432f-bb99-45431ccf0801">
+					<MenuItem id="foo may be any class that conforms to the NSCopying protocol" guid="306e483e-af7d-4019-953f-13ff566e1306">
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="SEL - Message Forwarding" guid="99493b2b-6ed7-4489-a723-70cf40605f60">
+				<MenuItem id="The Objective-C runtime specifies a pair of methods in Object" guid="25e34509-1b62-4f23-a79b-54aac5b62176">
+					<MenuItem id="forwarding method : - (id)forward:(SEL)sel args:(marg_list)args;" guid="5fec6803-9251-4815-871e-6b47408d91ed">
+					</MenuItem>
+					<MenuItem id="action method : - (id)performv:(SEL)sel args:(marg_list)args;" guid="fdcce867-f58d-4a12-9563-8f9b201f6c79">
+					</MenuItem>
+					<MenuItem id="if([recipient respondsToSelector:sel])" guid="3d0b123a-a7d0-4af5-87c4-8d0541aa1b21">
+						<MenuItem id="Checks if recipient responds to the message" guid="4155a63f-b96c-4afc-883c-ff8620289531">
+						</MenuItem>
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="ARC vs GC" guid="d7907151-0cfc-4344-b7ce-e2457e5ccaa0">
+				<MenuItem id="ARC" guid="11132794-11ee-4374-bc75-9dcf74a518b4">
+					<MenuItem id="Automatic reference counting (ARC) is the capability of the compiler to put retain and release statements in code." guid="9d61eebc-a695-4f9f-bcc4-27bdf9b0a532">
+					</MenuItem>
+					<MenuItem id="ARC is considered more advanced than GC." guid="268b778c-83f9-41bd-a93a-d0e6c811fe1d">
+					</MenuItem>
+				</MenuItem>
+				<MenuItem id="GC" guid="03b71efb-ff44-4e75-a376-ec17d44f74d8">
+					<MenuItem id="Garbage Collector (GC) releases memories of dereferenced objects." guid="10389568-b661-445d-8c53-b45efdbcebd0">
+					</MenuItem>
+					<MenuItem id="Provides automatic memory management and thus eliminating memory leaks." guid="4677eadf-018b-41e5-a8e3-b3d0f2d3e34e">
+					</MenuItem>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="In-App Purchase" guid="242e515c-01ae-4f06-977c-c1ecd0d89d75">
+			</MenuItem>
+			<MenuItem id="Notifications" guid="d07c24fa-bccd-4880-8674-dc0f374edd34">
+				<MenuItem id="Local" guid="4cc5f17f-b7ef-449c-bd12-6d3a7f1336cb">
+				</MenuItem>
+				<MenuItem id="Push" guid="a630ba49-291e-4fc3-a696-b5f406a4655b">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="XML Parsing" guid="7c10be48-754a-4108-bfcc-3aaec83e570b">
+				<MenuItem id="Using NSXMLParser" guid="895a4d1d-c14c-4ecb-83e1-5503f1272bb0">
+					<![CDATA[
+Delegate methods getting called :
+– parserDidStartDocument:
+– parserDidEndDocument:
+– parser:didStartElement:namespaceURI:qualifiedName:attributes:
+– parser:didEndElement:namespaceURI:qualifiedName:
+– parser:didStartMappingPrefix:toURI:
+– parser:didEndMappingPrefix:
+– parser:resolveExternalEntityName:systemID:
+– parser:parseErrorOccurred:
+– parser:validationErrorOccurred:
+– parser:foundCharacters:
+– parser:foundIgnorableWhitespace:
+– parser:foundProcessingInstructionWithTarget:data:
+– parser:foundComment:
+– parser:foundCDATA:			]]>
+				</MenuItem>
+				<MenuItem id="RaptureXML" guid="76cd5e27-7d41-42b6-aadc-a412760e9aa6">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="JSON Parsing" guid="c4165eb0-e50a-4c24-a9e6-d6642ab680d2">
+				<MenuItem id="NSJSONSerialization" guid="d28e11be-b15f-45ee-b95e-9ee055719b1b">
+					<![CDATA[
+For example : NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableContainers error: and;e];
+					]]>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="UIApplication" guid="6de3a56d-4dd4-47df-a336-34029596406d">
+				<MenuItem id="The UIApplication class implements the required behavior of an application" guid="e15e764c-c925-480c-9de3-7595d129a652">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="SQLite DB" guid="2e6c110a-3115-4adc-b433-08e17f09da11">
+				<MenuItem id="CoreData" guid="f0967d44-4f18-423f-bde7-d8eba3338b26">
+				</MenuItem>
+				<MenuItem id="SQLite3 Framework" guid="d37bdba0-8580-489c-ba3c-d9d060414b92">
+					<![CDATA[
+// Setup the database object
+ sqlite3 *database;
+
+ // Init the animals Array
+ animals = [[NSMutableArray alloc] init];
+
+ // Open the database from the users filessytem
+ if(sqlite3_open([databasePath UTF8String], and;database) == SQLITE_OK) {
+  // Setup the SQL Statement and compile it for faster access
+  const char *sqlStatement = "select * from animals";
+  sqlite3_stmt *compiledStatement;
+  if(sqlite3_prepare_v2(database, sqlStatement, -1, and;compiledStatement, NULL) == SQLITE_OK) {
+   // Loop through the results and add them to the feeds array
+   while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+    // Read the data from the result row
+    NSString *aName = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
+    NSString *aDescription = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 2)];
+    NSString *aImageUrl = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];
+
+    // Create a new animal object with the data from the database
+    Animal *animal = [[Animal alloc] initWithName:aName description:aDescription url:aImageUrl];
+
+    // Add the animal object to the animals Array
+    [animals addObject:animal];
+
+    [animal release];
+   }
+  }
+  // Release the compiled statement from memory
+  sqlite3_finalize(compiledStatement);
+
+ }
+ sqlite3_close(database);
+					]]>
+				</MenuItem>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem id="Android" guid="47c44e3b-bb63-4fd4-8a7c-abe4cccccadc">
+		</MenuItem>
+		<MenuItem id="PhoneGap/Sencha/Cordova" guid="f84af47b-0e17-4347-a220-e911177b9d5f">
+		</MenuItem>
+		<MenuItem id="HTML5" guid="7073747b-2739-493f-bef7-e4caaad9b931">
+		</MenuItem>
+		<MenuItem id="Windows Phone" guid="f85334a2-b0a7-4ad8-a86a-b393b1d98725">
+		</MenuItem>
+		<MenuItem id="MEAP" guid="3b02310a-1b6d-4292-8fbd-fb3a4c957984">
+		</MenuItem>
+		<MenuItem id="Enterprise Mobile Device Management (MDM)" guid="81829411-bbe4-4fd0-ab75-e1f668607841">
+		</MenuItem>
+		<MenuItem id="Mobile Commerce" guid="909d828f-d4d2-4ebd-a5a0-06b7b03b273c">
+		</MenuItem>
+		<MenuItem id="Multimedia streaming" guid="f55fb039-ffce-4170-86eb-0d77916cd63e">
+		</MenuItem>
+		<MenuItem id="Social networking" guid="bc62d9a3-54d5-418a-bf7e-a8ecc29c0345">
+		</MenuItem>
+		<MenuItem id="IM chat clients" guid="cbed1cd3-8fd6-4289-a12c-3cbe9f4da89c">
+		</MenuItem>
+		<MenuItem id="SIP/VoIP" guid="215fcebc-3706-4ee3-a283-2895efbff648">
+		</MenuItem>
+		<MenuItem id="WebServices" guid="d1887b7e-1009-4864-a421-198306441449">
+			<MenuItem id="REST" guid="48cec4c7-7cfe-442d-b8d6-1b7a9dcb2839">
+				<MenuItem id="JSON" guid="8e3d5ea0-69c3-4077-81c0-0e8e4cfbded2">
+				</MenuItem>
+				<MenuItem id="XML" guid="db76ffd1-67c8-4544-b3c0-6445a516c1b8">
+				</MenuItem>
+			</MenuItem>
+			<MenuItem id="SOAP" guid="2466bc6a-872a-4992-ab43-a4db22591c41">
+			</MenuItem>
+			<MenuItem id="J2EE" guid="5f025e8f-3376-4a5e-9f94-c3e2d93791e4">
+			</MenuItem>
+			<MenuItem id="ASP.NET MVC Web Api" guid="b060945d-1958-44a5-b9f0-853828404264">
+			</MenuItem>
+		</MenuItem>
+		<MenuItem id="Xamarin" guid="d5584f8b-9de0-4c31-a4b9-4c7689be42b7">
+		</MenuItem>
+		<MenuItem id="Blackberry" guid="5e06d5fe-5335-42f3-a942-97cbf5af1772">
+		</MenuItem>
+	</MenuItem>
+</root>
