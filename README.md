@@ -34,4 +34,4 @@ Usage:
 	Insert a new MenuItem(Ctrl + N) as a concept and its definition as a Sub-MenuItem(Ctrl + N).. 
 	..inside the prior created concept MenuItem.
 2. To add any Code sample to the definition, add a CDATA section(Ctrl + D) within the definition Sub-MenuItem.
-3. Click Menu to locate it in XML using GUID.(Works only for leaf nodes.)
+3. Select MenuItem to locate it in XML using GUID.
