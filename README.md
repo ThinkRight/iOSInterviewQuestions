@@ -3,9 +3,16 @@ iOS Interview Questions
 
 iOS Interview Questions @ http://bizzydevapps.weebly.com/
 
+Three Ways to Navigate Data:
+============================
+    1. Menu Display.
+    2. Tree View.
+    3. Tabbed Raw Text.
+
 ![Think Link Master](http://medbuy.in/ThinkLinkMaster/MenuDisplay.jpg)
 
-Works well in tandem with Notepad++
+Works well in tandem with Notepad++:
+====================================
 
 ![Notepad++ Integration](http://medbuy.in/ThinkLinkMaster/Export.PNG)
 
